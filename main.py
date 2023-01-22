@@ -1,7 +1,6 @@
 from datetime import datetime
 import numpy as np
 from logzero import logger
-import getStation
 
 print("Hello world!")
 print(f"Today is {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
