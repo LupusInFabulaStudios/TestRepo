@@ -1,5 +1,4 @@
 from orbit import ISS
 
-def GetStation(){
+def GetStation():
 	return ISS.coordinates()
-}
