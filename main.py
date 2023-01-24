@@ -1,4 +1,5 @@
 from datetime import datetime
+import time
 import numpy as np
 from logzero import logger
 
@@ -11,3 +12,4 @@ logger.info(np.sqrt(x))
 
 while True:
   logger.info("Boot2Repo is working! You may change the repository now.")
+  time.sleep(5)
