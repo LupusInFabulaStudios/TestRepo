@@ -3,7 +3,7 @@ import time
 import logzero
 from logzero import logger
 
-logzero.file("/tmp/logfile.log")
+logzero.logfile("/tmp/logfile.log")
 
 logger.info("Hello world!")
 logger.info(f"Today is {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
