@@ -8,6 +8,4 @@ logzero.file("/tmp/logfile.log")
 logger.info("Hello world!")
 logger.info(f"Today is {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
 
-while True:
-  logger.info("Boot2Repo is working! You may change the repository now.")
-  time.sleep(5)
+logger.info("This should be found in the log. If it is, then it's working!")
